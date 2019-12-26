@@ -1,0 +1,11 @@
+{
+  "name": "air-vinyl-server",
+  "version": "0.0.0",
+  "dependencies": {
+    "@body/json": "^0.2.1",
+    "execa": "^4.0.0",
+    "express": "^4.17.1",
+    "is-my-json-valid": "^2.20.0",
+    "mdns": "^2.5.1"
+  }
+}
