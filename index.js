@@ -79,6 +79,7 @@ browser.on('serviceUp', service => {
   const newDevice = {
     name: service.name,
     id: service.fullname,
+    model: service.txtRecord.model,
     host: service.host,
     port: service.port,
     playing: false,
